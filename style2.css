@@ -1,0 +1,91 @@
+#features{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.feature-row{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.fecture-col{
+    flex-basis: 25%;
+    text-align: center;
+}
+.fecture-col img{
+    width: 100px;
+}
+.fecture-col h4{
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+.feature-btn{
+    margin: 80px auto 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.feature-btn .line{
+    text-align: right;
+    display: inline-block;
+    margin-right: 25px;
+}
+
+
+
+
+
+
+hr{
+    width: 100%;
+    margin: 40px 0px;
+}
+.footer-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer-left{
+    flex-basis: 50%;
+    margin-top: 60px;
+}
+.footer-right{
+    flex-basis: 35%;
+}
+.footer-links{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.links-title{
+    color:pink;
+    margin-bottom:20px;
+}
+.links-title small{
+    font-size: 13px;
+    color:gray;
+}
+
+.footer-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-logo img{
+    width: 80px;
+}
+.footer-logo button{
+    padding: 12px 28px;
+    margin-top: 20px;
+    font-size: 10px;
+}
+
+.copy-write , .footer-logo{
+    flex-basis: 40%;
+}
+
